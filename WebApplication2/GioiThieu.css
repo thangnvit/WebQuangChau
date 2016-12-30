@@ -1,0 +1,157 @@
+﻿.content-center{
+    padding: 13px;
+    width: 1000px;
+    margin: auto;
+}
+.main-content{
+/*    height: 1087px;*/
+    width: 1000px;
+}
+.sub-menu{
+    width: 195px;
+    float: left;
+}
+.sub-menu ul li{
+    list-style-position: inside;
+    line-height: 30px;
+    background-color: #edc763;
+    list-style-image: url(img/list-icon.png);
+    font-size: 14px;
+}
+.sub-menu ul li:first-child{
+    color: white;
+    padding-left: 5px;
+    list-style-type: none;
+    background-color: #bd2050;
+    list-style-image: none;
+}
+.sub1{
+    margin-bottom: 15px;
+}
+.sub1 li{
+    border-bottom: 1px solid #cc980f;
+}
+.sub1 li:last-child{
+    border: none;
+}
+.sub1 li:hover{
+    background-color: #cc980f;
+}
+.sub2>div:first-child{
+    line-height: 31px;
+    color: white;
+    padding-left: 10px;
+    background-color: #bd2050;
+}
+.sub2 >div:first-child img{
+    float: right;
+}
+.sub2>div:nth-child(2){
+    font-size: 11px;
+    line-height: 20px;
+    padding: 8px;
+    background-color: white;
+}
+.sub2>div:nth-child(2) span{
+    display: block;
+}
+.sub2>div:nth-child(2)>div{
+    border-width: 2px;
+    border-style: solid;
+    border-top:none;
+    border-image: linear-gradient(to right, white, lightgray 50%, white) 1 0;
+}
+.sub2>div:nth-child(2)>div:last-child{
+    border: none;
+}
+.sub2>div:nth-child(2) span > span:first-child{
+    display: inline-table;
+    color: #bf2151;
+}
+.sub2 div:nth-child(2) div :nth-child(2){
+    font-weight: bold;
+    color: #004b91;
+}
+.sub2 div:nth-child(2) div{
+    margin-bottom: 7px
+}
+.sub2 div:nth-child(2) div:last-child span{
+    float: left;
+    color: #bf2151;
+    font-size: 15px;
+    line-height: 16px;
+}
+.sub2 div:nth-child(2) div:last-child{
+    margin: 0;
+}
+.sub2 div:nth-child(2) div:last-child img{
+    padding: 2px;
+    margin: 0;
+}
+.sub2 div:nth-child(2) div>:last-child{
+    margin-bottom: 6px;
+}
+.sub2-2 img{
+    width: 61px;
+    height: 81px;
+    padding: 8px 8px;
+    float: left;
+}   
+.see-all:hover{
+    cursor: pointer;
+}
+.sub3{
+    box-sizing: border-box;
+}
+.sub3 img{
+    margin: 15px 0;
+    width: 100%;
+}
+.main-intro{
+    width: 790px;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.heading1{
+    list-style-image: url("img/San_pham_noi_bat.png");
+    display: block; 
+    line-height: 27px;
+    border-bottom: 3px solid #cc980e;     
+}
+.content-intro{
+    padding: 0 15px 15px 15px;
+    border: 1px solid gray;
+    border-top: none;
+    background-color: #f9f9f9;
+}
+.heading2{
+    color: #cc3366;
+    font-size: 18pt;
+    line-height: 45px;
+    border-bottom: 1px dotted gray;
+}
+.heading3{
+    line-height: 30px;
+    border-bottom: 1px dotted gray;
+}
+.heading3 div{
+    float: right;
+    padding: 6px 0;
+}
+.heading3 div img{
+    margin-left: 13px;
+}
+.heading3 div img:hover{
+    cursor: pointer;
+}
+.document p{
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: justify;
+}
+.document img{
+    padding: 10px;
+    float: right;
+}

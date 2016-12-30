@@ -1,0 +1,100 @@
+﻿.LienHe{
+    width: 1000px;
+    margin: auto;
+}
+.main-LienHe{
+    width: 790px;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    font-size: 13px;
+}
+.content-LienHe{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #d3d3d3;
+    border-top: none;
+}
+/*******************************************/
+.main-LienHe .heading1 li{
+    font-weight: bold;
+    font-size: 20px;
+}
+.main-LienHe .form-LienHe input[type=text],
+.main-LienHe .form-LienHe select,
+.main-LienHe .form-LienHe textarea{
+    margin-bottom: 15px;
+    height: 28px;
+    border: 1px solid #d3d3d3;
+    outline: 3px solid #f0f0f0;
+}
+.main-LienHe .form-LienHe input[type=text]:focus,
+.main-LienHe .form-LienHe select:focus,
+.main-LienHe .form-LienHe textarea:focus{
+    border: 1px solid #bd2050;
+    outline: 3px solid #d8416f;
+}
+.main-LienHe .form-LienHe{
+    width: 530px;
+    margin: 40px auto;
+}
+.main-LienHe .form-LienHe input,
+.main-LienHe .form-LienHe textarea{
+    padding: 7px;
+    box-sizing: border-box;
+    width: 522px;
+}
+.main-LienHe .form-LienHe select{
+    width: 522px;
+}
+.main-LienHe .form-LienHe input[type=button]{
+    width: 80px;
+    height: 31px;
+}
+.main-LienHe .form-LienHe input:nth-child(5),
+.main-LienHe .form-LienHe input:nth-child(6){
+    width: 47%;
+}
+.main-LienHe .form-LienHe input:nth-child(6){
+    margin-left: 18px;
+}
+.main-LienHe .form-LienHe textarea{
+    height: 100px;
+    padding-top: 5px;
+    resize: none;
+}
+.main-LienHe .form-LienHe input:nth-last-child(1),
+.main-LienHe .form-LienHe input:nth-last-child(2){
+    outline: 3px solid #f0f0f0;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.main-LienHe .form-LienHe input:nth-last-child(1){
+    background-color: #d9a51b;
+}
+.main-LienHe .form-LienHe input:nth-last-child(2){
+    background-color: #b61c4b;
+}
+.main-LienHe .form-LienHe input:nth-last-child(1):hover{
+    background-color: #f2c03d;
+}
+.main-LienHe .form-LienHe input:nth-last-child(2):hover{
+    background-color: #d12359;
+}
+.main-LienHe .form-LienHe input:nth-last-child(1):active{
+    background-color: #906c0e;
+}
+.main-LienHe .form-LienHe input:nth-last-child(2):active{
+    background-color: #8c183b;
+}
+.main-LienHe .Google-Maps{
+}
+.content-LienHe div span:first-child{
+    font-weight: bold;
+}
+.content-LienHe div:nth-child(5){
+    display: block;
+    margin-bottom: 20px;
+}

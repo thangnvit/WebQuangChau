@@ -1,0 +1,61 @@
+﻿.QLTK{
+    width: 1000px;
+    margin: auto;
+}
+.main-QLTK{
+    width: 790px;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    font-size: 13px;
+}
+.content-QLTK{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #d3d3d3;
+    border-top: none;
+}
+/*******************************************/
+.main-QLTK .heading1 li{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main-QLTK .form-QLTK input[type=text],
+.main-QLTK .form-QLTK select,
+.main-QLTK .form-QLTK textarea{
+    margin-bottom: 15px;
+    height: 28px;
+    border: 1px solid #d3d3d3;
+    outline: 3px solid #f0f0f0;
+}
+.main-QLTK .form-QLTK input[type=text]:focus,
+.main-QLTK .form-QLTK select:focus,
+.main-QLTK .form-QLTK textarea:focus{
+    border: 1px solid #bd2050;
+    outline: 3px solid #d8416f;
+}
+.main-QLTK .form-QLTK{
+    width: 530px;
+    margin: 40px auto;
+}
+.main-QLTK .form-QLTK textarea{
+    resize: none;
+    height: 100px;  
+}
+.main-QLTK .form-QLTK input,
+.main-QLTK .form-QLTK textarea{
+    padding: 7px;
+    box-sizing: border-box;
+    width: 348px;
+}
+.main-QLTK .form-QLTK div{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+    width: 120px;
+    float: left;
+    margin-right: 10px;
+    line-height: 30px;
+}

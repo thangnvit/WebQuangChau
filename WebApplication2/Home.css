@@ -1,0 +1,183 @@
+﻿/*HomePage CSS*/
+.ads{
+    overflow: hidden;
+}
+.slide-left{
+    padding:1px;
+    height: 372px;
+    width: 234px;
+    float: left;
+}
+.promotion{
+    height: 374px;
+    width: 502px;
+    float: left;
+    margin: 0 13px;
+}
+.pro1{
+    height: 232px;
+    width: 500px;
+    margin-bottom: 15px;
+    float: left;
+}
+.pro2{
+    height: 125px;
+    width: 243px;
+    margin-right: 14px;
+    float: left;
+}
+.pro3{
+    height: 125px;
+    width: 243px;
+    float: left;
+}
+.slide-right{
+    padding:1px;
+    height: 372px;
+    width: 234px;   
+    float: left;
+}
+.search{
+    float: left;
+    width: 100%;
+    margin: 15px 2px;
+    font-size: 14px;
+    font-weight: bold;
+    font-size: 0;
+}
+.news{
+    width: 71px;
+    line-height: 37px;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    background: url("img/label-search.png") no-repeat;
+    font-size: 13px;
+    float: left;
+}
+.search span{
+    display: inline-block;
+    letter-spacing: -1px;
+    line-height: 37px;
+    white-space: nowrap;
+    font-size:14px;
+}
+.search span:nth-child(2){
+    width: 390px;
+    padding-right: 3px;
+    color: black;
+}
+.search span:nth-child(3){
+    width: 287px;
+    position: relative;
+    color: #C02151; 
+}
+.search input{
+    width: 240px;
+    height: 25px;
+}
+.search div:nth-child(4){
+    float: right;
+    margin: 6px 2px 0 0;
+    width: 240px;
+    position: relative;
+}
+.search div:nth-child(4) img{
+    position: absolute;
+    right: 5px;
+    top: 3px;
+}
+.hfeature, .hhot{
+    overflow: hidden;
+    border-bottom: 3px solid #C99405;
+}
+.hseen{
+    overflow: hidden;
+    border-bottom: 3px solid #BE1F50;
+}
+.hfeature li, .hhot li, .hseen li{
+    float: left;
+}
+.feature li:first-child, .hhot li:first-child{
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    list-style-image: url("img/San_pham_noi_bat.png");
+}
+.hseen li:first-child{
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    list-style-image: url("img/Seen.png");
+}
+.feature li:last-child, .hhot li:last-child, .hseen li:last-child{
+    font-size: 11px;
+    line-height: 29px;
+    list-style-type: none;
+    color: #004B8F;
+    float: right;
+}
+.hseen li:last-child{
+    color: black;
+    font-weight: bold;
+}
+.feature li a:hover, .hhot li a:hover, .hseen li a:hover{
+    cursor: pointer;
+}
+.hseen li:last-child a{
+    padding: 2px 4px;
+    color: white;
+    background-color: #BE1F50;
+}
+.cfeature, .chot, .cseen{
+    overflow: hidden;
+    font-size: 0;
+}
+.product{
+    float: left;
+    margin-top: 20px;
+    width: 180px;
+    height: 360px;
+    box-sizing: border-box;
+    padding: 1px;
+    background-color: white;
+    font-size: 12px;
+}
+.product:nth-child(1),
+.product:nth-child(2),
+.product:nth-child(3),
+.product:nth-child(4),
+.product:nth-child(6),
+.product:nth-child(7),
+.product:nth-child(8),
+.product:nth-child(9){
+    margin-right: 25px;
+}
+.menu{
+    width: 178px;
+    height: 118px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+.menu p{
+    line-height: 17px;
+}
+.menu p:first-child{
+    color: #014B90;
+}
+.menu span{
+    color: #C32D5A;
+}
+.menu input{
+    margin-top: 10px;
+    width: 50%;
+    height: 20px;
+    font-size: 11px;
+}
+.menu input:hover{
+    cursor: pointer;
+}
+.hot-sell, .hseen{
+    margin-top: 20px;
+}
+/*HomePage CSS end*/

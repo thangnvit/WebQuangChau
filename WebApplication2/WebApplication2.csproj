@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0DF0D237-97F7-4B51-972D-E08C99EABCF2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication2</RootNamespace>
+    <AssemblyName>WebApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DanKy_Nhap.css" />
+    <Content Include="GioHang.aspx" />
+    <Content Include="GioHang.css" />
+    <Content Include="GioiThieu.css" />
+    <Content Include="Guide.css" />
+    <Content Include="Home.css" />
+    <Content Include="img\animatecontact.png" />
+    <Content Include="img\animateicon1.png" />
+    <Content Include="img\animateicon2.png" />
+    <Content Include="img\banner.png" />
+    <Content Include="img\bc1.png" />
+    <Content Include="img\bc10.png" />
+    <Content Include="img\bc2.png" />
+    <Content Include="img\bc3.png" />
+    <Content Include="img\bc4.png" />
+    <Content Include="img\bc5.png" />
+    <Content Include="img\bc6.png" />
+    <Content Include="img\bc7.png" />
+    <Content Include="img\bc8.png" />
+    <Content Include="img\bc9.png" />
+    <Content Include="img\bg-hover-nav.png" />
+    <Content Include="img\bg-nav.png" />
+    <Content Include="img\bg-top-left.png" />
+    <Content Include="img\bg-top-right.png" />
+    <Content Include="img\bg.png" />
+    <Content Include="img\capnhat.png" />
+    <Content Include="img\collapse-button.png" />
+    <Content Include="img\face.png" />
+    <Content Include="img\facebook.png" />
+    <Content Include="img\gplus.png" />
+    <Content Include="img\giohang.png" />
+    <Content Include="img\Google.png" />
+    <Content Include="img\handphone.png" />
+    <Content Include="img\headericon.png" />
+    <Content Include="img\heart.png" />
+    <Content Include="img\home-phone.png" />
+    <Content Include="img\home.png" />
+    <Content Include="img\hot.png" />
+    <Content Include="img\human.png" />
+    <Content Include="img\intro.png" />
+    <Content Include="img\inttrang.png" />
+    <Content Include="img\key.png" />
+    <Content Include="img\label-search.png" />
+    <Content Include="img\list-icon.png" />
+    <Content Include="img\luotxem.png" />
+    <Content Include="img\mm.png" />
+    <Content Include="img\nb1.png" />
+    <Content Include="img\nb10.png" />
+    <Content Include="img\nb2.png" />
+    <Content Include="img\nb3.png" />
+    <Content Include="img\nb4.png" />
+    <Content Include="img\nb5.png" />
+    <Content Include="img\nb6.png" />
+    <Content Include="img\nb7.png" />
+    <Content Include="img\nb8.png" />
+    <Content Include="img\nb9.png" />
+    <Content Include="img\off-skype.png" />
+    <Content Include="img\off-yahoo.png" />
+    <Content Include="img\onl-skype.png" />
+    <Content Include="img\onl-yahoo.png" />
+    <Content Include="img\phone.png" />
+    <Content Include="img\pro1.png" />
+    <Content Include="img\pro2.png" />
+    <Content Include="img\pro3.png" />
+    <Content Include="img\San_pham_noi_bat.png" />
+    <Content Include="img\search.png" />
+    <Content Include="img\Seen.png" />
+    <Content Include="img\seen1.png" />
+    <Content Include="img\seen2.png" />
+    <Content Include="img\seen3.png" />
+    <Content Include="img\seen4.png" />
+    <Content Include="img\seen5.png" />
+    <Content Include="img\slide-left-1.png" />
+    <Content Include="img\slide-right-1.png" />
+    <Content Include="img\tab.png" />
+    <Content Include="img\telephone.png" />
+    <Content Include="img\twister.png" />
+    <Content Include="img\youtube.png" />
+    <Content Include="img\youtube1.png" />
+    <Content Include="img\zing.png" />
+    <Content Include="LienHe.css" />
+    <Content Include="Master.css" />
+    <Content Include="OptionLoad.js" />
+    <Content Include="SearchBar.ascx" />
+    <Content Include="SearchBar.css" />
+    <Content Include="Web.config" />
+    <Content Include="Home.aspx" />
+    <Content Include="GioiThieu.aspx" />
+    <Content Include="DangKy_Nhap.aspx" />
+    <Content Include="Guide.aspx" />
+    <Content Include="LienHe.aspx" />
+    <Content Include="QuanLyTaiKhoan.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GioHang.aspx.cs">
+      <DependentUpon>GioHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GioHang.aspx.designer.cs">
+      <DependentUpon>GioHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GioiThieu.aspx.cs">
+      <DependentUpon>GioiThieu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GioiThieu.aspx.designer.cs">
+      <DependentUpon>GioiThieu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchBar.ascx.cs">
+      <DependentUpon>SearchBar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchBar.ascx.designer.cs">
+      <DependentUpon>SearchBar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DangKy_Nhap.aspx.cs">
+      <DependentUpon>DangKy_Nhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangKy_Nhap.aspx.designer.cs">
+      <DependentUpon>DangKy_Nhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Guide.aspx.cs">
+      <DependentUpon>Guide.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Guide.aspx.designer.cs">
+      <DependentUpon>Guide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LienHe.aspx.cs">
+      <DependentUpon>LienHe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LienHe.aspx.designer.cs">
+      <DependentUpon>LienHe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyTaiKhoan.aspx.cs">
+      <DependentUpon>QuanLyTaiKhoan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuanLyTaiKhoan.aspx.designer.cs">
+      <DependentUpon>QuanLyTaiKhoan.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.Master" />
+    <Content Include="font\UVNHongHaHepBold.TTF" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61211</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:59333/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

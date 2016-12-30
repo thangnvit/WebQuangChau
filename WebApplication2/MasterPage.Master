@@ -1,0 +1,307 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="WebApplication2.Site1" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Master.css" rel="stylesheet" />
+    <link href="SearchBar.css" rel="stylesheet" />
+    <link href="Home.css" rel="stylesheet" />
+    <link href="GioiThieu.css" rel="stylesheet" />
+    <link href="DanKy_Nhap.css" rel="stylesheet" />
+    <link href="GioHang.css" rel="stylesheet" />
+    <link href="Guide.css" rel="stylesheet" />
+    <link href="LienHe.css" rel="stylesheet" />
+    <link href="QuanLyTaiKhoan.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div class="header">
+                <img src="img/headericon.png" id="pageicon" />
+                <div class="halfheaderleft">
+                    <div><span class="header1">NhapHang</span><span class="header2">QuangChau.com</span></div>
+                    <div>Thời trang sành điệu cho giới trẻ</div>
+                </div>
+                <div class="halfheaderright">
+                    <div class="hrighttop">
+                        <div>
+                            <img src="img/tab.png" />
+                            <span>
+                                <img src="img/human.png" />
+                                <a href="DangKy_Nhap.aspx">Đăng nhập</a></span>
+                        </div>
+                        <div>
+                            <img src="img/tab.png" />
+                            <span>
+                                <img src="img/key.png" />
+                                <a href="DangKy_Nhap.aspx">Đăng ký</a></span>
+                        </div>
+                        <div>
+                            <img src="img/tab.png" />
+                            <span>
+                                <img src="img/giohang.png" />
+                                <a href="GioHang.aspx">Giỏ hàng</a></span>
+                        </div>
+                    </div>
+                    <div class="hrightbottom">
+                        <span>Hỗ trợ đường dây nóng: </span><span>0989 613 898</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div class="nav">
+                <div><a href="Home.aspx">TRANG CHỦ</a></div>
+                <div><a href ="GioiThieu.aspx">GIỚI THIỆU</a></div>
+                <div>
+                    <a>BST MÙA XUÂN</a>
+                    <div class="dropdown">
+                        <a>Quần Jeans</a>
+                        <a>Quần vải</a>
+                        <a>Váy - đầm dạo phố</a>
+                        <a>Áo Pull</a>
+                        <a>Áo sơmi</a>
+                        <a>Váy ren</a>
+                    </div>
+                </div>
+                <div>
+                    <a>BST MÙA HÈ</a>
+                    <div class="dropdown">
+                        <a>Quần Jeans</a>
+                        <a>Quần vải</a>
+                        <a>Váy - đầm dạo phố</a>
+                        <a>Áo Pull</a>
+                        <a>Áo sơmi</a>
+                        <a>Váy ren</a>
+                    </div>
+                </div>
+                <div>
+                    <a>BST MÙA THU</a>
+                    <div class="dropdown">
+                        <a>Quần Jeans</a>
+                        <a>Quần vải</a>
+                        <a>Váy - đầm dạo phố</a>
+                        <a>Áo Pull</a>
+                        <a>Áo sơmi</a>
+                        <a>Váy ren</a>
+                    </div>
+                </div>
+                <div>
+                    <a>BST MÙA ĐÔNG</a>
+                    <div class="dropdown">
+                        <div><a>Quần Jeans</a></div>
+                        <div>
+                            <a>Quần vải</a>
+                            <div class="dropdown2">
+                                <div><a>Quần vải cho nữ</a></div>
+                                <div><a>Quần vải co nam</a></div>
+                                <div><a>Mẫu quần bán chạy</a></div>
+                                <div><a>Mẫu quần yêu thích</a></div>
+                                <div><a>Mẫu quần nổi bật</a></div>
+                            </div>
+                        </div>
+                        <div><a>Váy - đầm dạo phố</a></div>
+                        <div><a>Áo Pull</a></div>
+                        <div><a>Áo sơmi</a></div>
+                        <div><a>Váy ren</a></div>
+                    </div>
+                </div>
+                <div>
+                    <a>PHỤ KIỆN</a>
+                    <div class="dropdown">
+                        <a>Quần Jeans</a>
+                        <a>Quần vải</a>
+                        <a>Váy - đầm dạo phố</a>
+                        <a>Áo Pull</a>
+                        <a>Áo sơmi</a>
+                        <a>Váy ren</a>
+                    </div>
+                </div>
+                <div>
+                    <a>TIN TỨC</a>
+                    <div class="dropdown">
+                        <a>Tin Tức khuyến mãi</a>
+                        <a>Tin tức thời trang</a>
+                        <a>Tin tức thị trường</a>
+                        <a>Tin tức trong nước</a>
+                        <a>Tin tức thế giới</a>
+                    </div>
+                </div>
+                <div><a href="LienHe.aspx">LIÊN HỆ</a></div>
+            </div>
+        </nav>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="view-control">
+            <div class="article">
+                <table>
+                    <tr>
+                        <th>Hỗ trợ khách hàng</th>
+                        <th>Tin tức - Sự kiện</th>
+                        <th>Danh mục được ưa chuộng</th>
+                        <th>Kết nối với chúng tôi</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>
+                                    <div>Liên hệ</div>
+                                </li>
+                                <li>
+                                    <div>Tuyển dụng</div>
+                                </li>
+                                <li>
+                                    <div>Giao hàng</div>
+                                </li>
+                                <li>
+                                    <div>Các hình thức thanh toán</div>
+                                </li>
+                                <li>
+                                    <div>Hướng dẫn đặt hàng</div>
+                                </li>
+                                <li>
+                                    <div>Chính sách đổi trả hàng</div>
+                                </li>
+                                <li>
+                                    <div>Các câu hỏi thường gặp</div>
+                                </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <div>Người mẫu 48 tuổi chật vật với váy nặng 50 ký</div>
+                                </li>
+                                <li>
+                                    <div>25 tuổi trở thành người giàu nhất Trung Quốc</div>
+                                </li>
+                                <li>
+                                    <div>"Soi" trang phục ngày thường của chân dài Thanh Hằng</div>
+                                </li>
+                                <li>
+                                    <div>Những mẫu quần côn sở nữ đẹp</div>
+                                </li>
+                                <li>
+                                    <div>30 túi sách đẹp miễn chê tại Milan FW</div>
+                                </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <div>Quần Jeans</div>
+                                </li>
+                                <li>
+                                    <div>Áo pull nữ</div>
+                                </li>
+                                <li>
+                                    <div>Váy - đầm dạo phố</div>
+                                </li>
+                                <li>
+                                    <div>Quần vải</div>
+                                </li>
+                                <li>
+                                    <div>Áo sơ mi nữ</div>
+                                </li>
+                                <li>
+                                    <div>Áo sơ mi nam</div>
+                                </li>
+                                <li>
+                                    <div>Váy ren</div>
+                                </li>
+                            </ul>
+                        </td>
+                        <td id="last">
+                            <div class="social">
+                                <img src="img/face.png" />Facebook
+                            </div>
+                            <div class="social">
+                                <img src="img/twister.png" />Twitter
+                            </div>
+                            <div class="social">
+                                <img src="img/gplus.png" />Google +
+                            </div>
+                            <div class="social">
+                                <img src="img/youtube.png" />Youtube
+                            </div>
+                            <div class="contact">
+                                <div>
+                                    Tel: <span>04 3525 6666</span><br />
+                                    Hotline: <span>0989 613 8989</span>
+                                </div>
+                            </div>
+                            <div class="contact">Online: <span>35</span></div>
+                            <div class="contact">Tổng truy cập: <span>3,495,495</span></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="bottom-nav">
+                <div>
+                    <div><a href="Home.aspx">TRANG CHỦ</a></div>
+                    <div><a href="GioiThieu.aspx">GIỚI THIỆU</a></div>
+                    <div><a href="#">BST MÙA XUÂN</a></div>
+                    <div><a href="#">BST MÙA HÈ</a></div>
+                    <div><a href="#">BST MÙA THU</a></div>
+                    <div><a href="#">BST MÙA ĐÔNG</a></div>
+                    <div><a href="#">PHỤ KIỆN</a></div>
+                    <div><a href="#">TIN TỨC</a></div>
+                    <div><a href="LienHe.aspx">LIÊN HỆ</a></div>
+                </div>
+            </div>
+            <aside>
+                <div id="MiniTab" onclick="Hide()">
+                    Hỗ trợ trực tuyến
+                    <img src="img/animateicon1.png" />
+                </div>
+                <div id="HotLine">
+                    <div onclick="Show()">
+                        Thu gọn
+                        <img src="img/animateicon2.png" />
+                    </div>
+                    <img src="img/animatecontact.png" /><span id="onl-sup">HỖ TRỢ<br />
+                        TRỰC TUYẾN</span>
+                    <div>
+                        <span class="img-animate">
+                            <img src="img/onl-yahoo.png" />
+                            <img src="img/onl-skype.png" /></span><span>Tư vấn khách hàng 1</span><br />
+                        <span class="img-animate">
+                            <img src="img/off-yahoo.png" />
+                            <img src="img/off-skype.png" /></span><span>Tư vấn khách hàng 2</span><br />
+                        <span class="img-animate">
+                            <img src="img/telephone.png" /></span><span>043.624.10.445</span><br />
+                        <span class="img-animate">
+                            <img src="img/handphone.png" /></span><span>0912.445.223</span><br />
+                        <span class="img-animate">
+                            <img src="img/home-phone.png" /></span><span>HOTLINE:</span><span>0989 613 898</span>
+                    </div>
+                </div>
+            </aside>
+            <script>
+                var x = document.getElementById("MiniTab");
+                var y = document.getElementById("HotLine")
+                function Hide() {
+                    x.style.display = "none";
+                    y.style.display = "block";
+                }
+                function Show() {
+                    x.style.display = "block";
+                    y.style.display = "none";
+                }
+            </script>
+        </div>
+        <footer>
+            <div><span>SIÊU THỊ BÁN HÀNG TRỰC TUYẾN NHAPHANGQUANGCHAU.COM</span></div>
+            <div><span>Địa chỉ: 16 Ngõ 336 Ngọc Lâm Long Biên, Hà Nội, Việt Nam  |  Điện thoại: 043 5535 6666 - Hotline: 0989 613 898</span></div>
+            <div><span>Email: viettrung666@gmail.com - Website: www.nhaphangquangchau.com  |  Thiết kế website - Xây dựng website bởi Tất Thành</span></div>
+        </footer>
+    </form>
+</body>
+</html>

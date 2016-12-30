@@ -1,0 +1,128 @@
+﻿.bag-content{
+    width: 1000px;
+    margin: auto;
+}
+.bag-content{
+    border: 1px solid #d3d3d3;
+    border-top: none;
+    background-color: #f9f9f9;
+}
+.bag-content table{
+    text-align: left;
+    font-size: 11pt;
+    border-collapse: collapse;
+}
+.bag-content tr:first-child{
+    background-color: #f9f9f9;
+    border-top: 3px solid #cc980e;
+    border-bottom: 2px solid #e5e5e5;
+}
+.bag-content td, th{
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.bag-content td{
+    padding: 15px;
+}
+.bag-content th:first-child{
+    height: 35px;
+    width: 318px;
+}
+.bag-content th:nth-child(2){
+    width: 122px;
+}
+.bag-content th:nth-child(3){
+    width: 131px;
+}
+.bag-content th:nth-child(4){
+    width: 106px;
+}
+.bag-content th:nth-child(5){
+    text-align: right;
+    width: 97px;
+}
+.bag-content th:nth-child(6){
+    width: 98px;
+}
+.bag-content th:nth-child(7){
+    width: 129px;
+}
+.bag-content tr:nth-child(n+2){
+    height: 76px;
+}
+.bag-content tr:nth-child(2n+1){
+    background-color: #f3f3f3;
+}
+.bag-content tr:nth-child(2n){
+    background-color: #f9f9f9;
+}
+.bag-content td div:nth-child(2){
+    text-decoration: line-through;
+}
+.bag-content span{
+    display:inline-block;
+}
+.bag-content tr td:first-child span:first-child,
+.bag-content tr td:first-child span:nth-child(2){
+    float:left;
+}
+.bag-content td span:nth-child(2){
+    margin-top: 5px;
+    display: inline-block;
+    width: 230px;
+    height: 54px;
+    line-height: 20px;
+}
+.bag-content .TongTien{
+    margin-top:17px;
+    border-top: 2px solid #e5e5e5;
+    box-sizing: border-box;
+    padding: 15px;
+    overflow: hidden;
+}
+.bag-content .TongTien div{
+    float: right;
+    overflow: hidden;
+}
+.bag-content .TongTien div:first-child span:first-child{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.bag-content .TongTien div:first-child span:nth-child(2){
+    font-weight: bold;
+    color: #da2525;
+}
+.bag-content .TongTien div:nth-child(2){
+    width:100%;
+}
+.bag-content .TongTien div:nth-child(2) span{
+    float: right;
+}
+.bag-content .TongTien div:nth-child(2) span input{
+    outline: 3px solid #f0f0f0;
+    margin: 15px 0;
+    width: 200px;
+    height: 30px;
+    background-color: #bb1f4f;
+    border-color: #bb1f4f;
+    color: white;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.bag-content .TongTien div:nth-child(2) span input:focus{
+    background-color: #a51743;
+    border-color: #a51743;
+}
+.bag-content option{
+    clear: both;
+}
+.bag-content tr td:last-child span{
+    cursor: pointer;
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    background:url("/img/Xoa_SanPham.png") no-repeat;
+}
+.bag-content tr td:last-child span:hover{
+    background:url("/img/Xoa_SanPham_Hover.png") no-repeat;
+}

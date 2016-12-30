@@ -1,0 +1,135 @@
+﻿.main-register{
+    width: 790px;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    font-size: 13px;
+}
+.content-register{
+    padding: 20px;
+}
+.content-register div{
+    margin-bottom: 10px;
+}
+.content-register span:first-child{
+    font-weight: bold;
+}
+.content-register>div>span:first-child{
+    color: #bd2050;
+}
+.content-register div>span:nth-child(2){
+    color: #cc980e;
+}
+.content-register div:nth-child(1),
+.content-register div:nth-child(2){
+    font-weight: bold;
+}
+.content-register input[type=text],
+.content-register input[type=password]{
+    border: 2px solid lightgray;
+    height: 28px;
+    width: 350px;
+}
+.login-form{
+    width: 500px;
+    margin: 30px auto;
+}
+.login-form div{
+    margin-bottom: 10px;
+}
+.login-form>div span:first-child{
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    margin-right: 15px;
+}
+.login-form div span input[type=text],
+.login-form div span input[type=password]{
+    border: 2px solid lightgray;
+    height: 28px;
+    width: 350px;
+}
+.login-form div span input[type=text]:focus{
+    border: 2px solid #d8416f;
+    outline: 3px solid #d8416f;
+}
+.login-form div span input[type=password]:focus{
+    border: 2px solid #d8416f;
+    outline: 3px solid #d8416f;
+}
+.login-form div span input[type=button]{
+    outline: 4px solid #f0f0f0;
+    height: 30px;
+    width: 200px;
+    background-color: #bb1f4f;
+    border-color: #bb1f4f;
+    border-radius:3px;  
+}
+.login-form div span input[type=button]:focus{
+    background-color: #a51743;
+    border-color: #a51743;
+}
+.login-form div span input[type=checkbox]{
+    margin: 0 10px 0 20px;
+}
+.login-form span{
+    display: inline-block;
+}
+.login-form div span input[type=text],intput[type=password]{
+    font-size: 18px;
+}
+.login-form a{
+    color: #cc980e;
+}
+.login-form a:hover{
+    color: #e9af17;
+}
+.login-form a:active{
+    color: #17abe9;
+}
+.login-form{
+    padding-bottom: 30px;
+    margin-bottom: 30px !important;
+    border-bottom: 2px solid gray;
+    border-image: linear-gradient(to right, transparent, lightgray 50%, transparent) 1 0;
+}
+.register-form{
+    width: 500px;
+    margin: 30px auto;
+}
+.daddiachi{
+    overflow:hidden;
+}
+.dkdiachi{
+    display: block;
+    height: 90px;
+    float:left;
+}
+.dkdiachi textarea{
+    height: 80px;
+    width: 350px;
+    resize: none;
+    border: 2px solid lightgray;
+}
+.register-form>div span:first-child{
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    margin-right: 15px;
+}
+.important{
+    color: red;
+}
+.register-form input[type=button]{
+    outline: 4px solid #f0f0f0;
+    height: 30px;
+    width: 130px;
+    background-color: #d8a41a;
+    border-color: #d8a41a;
+    border-radius:3px;  
+}
+.register-form input[type=button]:focus{
+    background-color: #c2941b;
+    border-color: #c2941b;
+}
